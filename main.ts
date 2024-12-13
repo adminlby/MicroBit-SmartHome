@@ -33,4 +33,5 @@ basic.forever(function () {
     basic.showNumber(input.lightLevel())
     basic.pause(2000)
     basic.showNumber(pins.digitalReadPin(DigitalPin.P0))
+    basic.pause(2000)
 })
