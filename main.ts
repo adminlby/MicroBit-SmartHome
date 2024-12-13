@@ -35,4 +35,5 @@ basic.forever(function () {
     Light()
     Readlight()
     basic.showNumber(input.lightLevel())
+    serial.writeNumber(input.lightLevel())
 })
