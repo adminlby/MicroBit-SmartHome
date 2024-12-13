@@ -5,17 +5,7 @@ Description of the Group 17 of codes
 We use **Mincrosoft Makecode IDE** to code this project
 Using two **MicroBit V2.2** for whole house automation
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-**The first MicroBit has used the following materials:**
-1. MicroBit V2.2 **X** 1
-2. MicroBit Expansion Board **X** 1
-3. 400-hole breadboard **X** 1
-4. Dupont Line **X** 4
-5. LED Yellow Light **X** 1
 
-**Wiring**
-
-Expansion Board P0 **SIG** **GND** : +- **A1** | LED Yellow Light **A2** | **Blue** positive pole | **Purple** negative pole
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 **The second MicroBit has used the following materials:**
 1. MicroBit V2.2 **X** 1
 2. MicroBit Expansion Board **X** 1
