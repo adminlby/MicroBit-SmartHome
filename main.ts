@@ -2,13 +2,6 @@ let Value_light = 0
 function Readlight () {
     Value_light = input.lightLevel()
 }
-function Window () {
-    if (pins.analogReadPin(AnalogReadWritePin.P4) == 1) {
-        pins.servoWritePin(AnalogPin.P3, 180)
-    } else {
-        pins.servoWritePin(AnalogPin.P3, 0)
-    }
-}
 // Open all light when press A
 input.onButtonPressed(Button.A, function () {
     pins.digitalWritePin(DigitalPin.P0, 1)
