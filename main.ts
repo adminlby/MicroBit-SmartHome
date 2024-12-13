@@ -39,4 +39,5 @@ basic.forever(function () {
     Light()
     Readlight()
     basic.showNumber(input.lightLevel())
+    radio.setGroup(100)
 })
