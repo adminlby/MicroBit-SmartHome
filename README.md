@@ -15,9 +15,11 @@ Using two **MicroBit V2.2** for whole house automation
 
 **Wiring**
 
-Expansion Board P1 **SIG** **3.3V** **GND** : Servo **P1**
+Expansion Board P4 **SIG** **3.3V** **GND** : Servo **P4**
 
-Expansion Board P0 **SIG** **GND** : Fan **A3**
+Expansion Board P1 **SIG** **3.3V** **GND** : Water Sensor **P1**
+
+Expansion Board P0 **SIG** **GND** : Fan **A2**
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ## Secondary development instructions
 ## Use as an extension
