@@ -1,21 +1,57 @@
-## 用作扩展
+## This is S.K.H. Leung Kwai Yee Secondary School's STEAM Project
+## All rights reserved. Any infringement will be prosecuted.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Description of the Group 17 of codes 
+We use **Mincrosoft Makecode IDE** to code this project
+Using two **MicroBit V2.2** for whole house automation
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+**The first MicroBit has used the following materials:**
+1. MicroBit V2.2 **X** 1
+2. MicroBit Expansion Board **X** 1
+3. 400-hole breadboard **X** 1
+4. Dupont Line **X** 4
+5. LED Yellow Light **X** 1
 
-此仓库可以作为 **插件** 添加到 MakeCode 中。
+**Wiring**
 
-* 打开 [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* 点击 **新项目**
-* 点击齿轮图标菜单下的 **扩展**
-* 搜索 **https://github.com/adminlby/microbit-smarthome** 并导入
+Expansion Board P0 **SIG** **GND** : +- **A1** | LED Yellow Light **A2** | **Blue** positive pole | **Purple** negative pole
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+**The second MicroBit has used the following materials:**
+1. MicroBit V2.2 **X** 1
+2. MicroBit Expansion Board **X** 1
+3. 400-hole breadboard **X** 1
+4. Dupont Line **X** 4
+5. LED Yellow Light **X** 1
 
-## 编辑此项目
+**Wiring**
 
-在 MakeCode 中编辑此仓库。
+Expansion Board P0 **SIG** **GND** : +- **A1** | buzzer **A2**
 
-* 打开 [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* 点击 **导入**，然后点击 **导入 URL**
-* 粘贴 **https://github.com/adminlby/microbit-smarthome** 并点击导入
+Expansion Board P4 **SIG** **3.3V** **GND** : Servo **P4**
 
-#### 元数据（用于搜索、渲染）
+Expansion Board P0 **SIG** **GND** : Fan **A3**
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+## Secondary development instructions
+## Use as an extension
+**It is forbidden to carry out secondary development without the author's consent (until the project is completed). Violators will not be given the access to view the project.**
+
+This repository can be added to MakeCode as a **plugin**.
+
+* Open [https://makecode.microbit.org/](https://makecode.microbit.org/)
+
+* Click **New Project**
+* Click **Extension** under the gear icon menu
+* Search for **https://github.com/adminlby/microbit-smarthome** and import it
+
+## Edit this project
+
+Edit this repository in MakeCode.
+
+* Open [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* Click **Import**, then **Import URL**
+* Paste **https://github.com/adm****y/microb**-**arthome(Will Will be open after the project is completed)** and click Import
+
+#### Metadata (for searching, rendering)
 
 * for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
