@@ -22,6 +22,7 @@ function Light () {
 // Shut down all light when press B
 input.onButtonPressed(Button.B, function () {
     pins.digitalWritePin(DigitalPin.P0, 0)
+    music.setVolume(255)
     music.play(music.tonePlayable(262, music.beat(BeatFraction.Whole)), music.PlaybackMode.InBackground)
     basic.pause(1000)
     music.stopAllSounds()
