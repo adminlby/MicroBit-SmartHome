@@ -30,8 +30,5 @@ input.onButtonPressed(Button.B, function () {
 basic.forever(function () {
     Light()
     Readlight()
-    basic.pause(1000)
     basic.showNumber(input.lightLevel())
-    basic.pause(1000)
-    basic.showNumber(pins.digitalReadPin(DigitalPin.P0))
 })
