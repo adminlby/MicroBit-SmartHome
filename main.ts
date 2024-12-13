@@ -13,7 +13,7 @@ input.onButtonPressed(Button.A, function () {
     music.stopAllSounds()
 })
 function Light () {
-    if (input.lightLevel() <= 50) {
+    if (input.lightLevel() <= 30) {
         pins.digitalWritePin(DigitalPin.P0, 1)
     } else {
         pins.digitalWritePin(DigitalPin.P0, 0)
