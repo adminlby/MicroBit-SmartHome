@@ -27,6 +27,14 @@ input.onButtonPressed(Button.B, function () {
     basic.pause(1000)
     music.stopAllSounds()
 })
+radio.onReceivedValue(function (name, value) {
+    if (name == "light" && value == 1) {
+        pins.digitalWritePin(DigitalPin.P0, 1)
+    }
+    if (name == "light" && value == 0) {
+        pins.digitalWritePin(DigitalPin.P0, 0)
+    }
+})
 basic.forever(function () {
     Light()
     Readlight()
