@@ -1,6 +1,8 @@
 let Value_light = 0
+let lightstatus = 0
 function Readlight () {
     Value_light = input.lightLevel()
+    lightstatus = 0
 }
 // Open all light when press A
 input.onButtonPressed(Button.A, function () {
@@ -27,5 +29,8 @@ input.onButtonPressed(Button.B, function () {
 basic.forever(function () {
     Light()
     Readlight()
+    basic.pause(2000)
     basic.showNumber(input.lightLevel())
+    basic.pause(2000)
+    basic.showNumber(pins.digitalReadPin(DigitalPin.P0))
 })
