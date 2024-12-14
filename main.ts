@@ -27,8 +27,15 @@ input.onButtonPressed(Button.B, function () {
     basic.pause(1000)
     music.stopAllSounds()
 })
-// remote on/off lights
 radio.onReceivedValue(function (name, value) {
+    basic.clearScreen()
+    basic.showLeds(`
+        # . . . #
+        . # . # .
+        . . # . .
+        . # . # .
+        # . . . #
+        `)
     if (name == "light" && value == 1) {
         pins.digitalWritePin(DigitalPin.P0, 1)
     }
