@@ -36,11 +36,20 @@ radio.onReceivedValue(function (name, value) {
         . # . # .
         # . . . #
         `)
-    if (name == "light" && value == 1) {
-        pins.digitalWritePin(DigitalPin.P0, 1)
-    }
-    if (name == "light" && value == 0) {
-        pins.digitalWritePin(DigitalPin.P0, 0)
+    for (let index = 0; index < 999999999999; index++) {
+        let receivenumlight = 0
+        if (receivenumlight == 75) {
+            if (name == "light" && value == 1) {
+                pins.digitalWritePin(DigitalPin.P0, 1)
+            }
+            if (name == "light" && value == 0) {
+                pins.digitalWritePin(DigitalPin.P0, 0)
+            }
+        } else {
+            break;
+Light()
+            Readlight()
+        }
     }
 })
 basic.forever(function () {
